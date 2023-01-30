@@ -1,3 +1,4 @@
+@Library('slibrary-example@main') _
 pipeline {
     agent {
         node {
