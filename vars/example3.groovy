@@ -1,5 +1,6 @@
 def call(Closure postHelloScript) {
     node {
+        postHelloScript()
         stage("Hello World") {
             script {
                 sh """
@@ -8,6 +9,6 @@ def call(Closure postHelloScript) {
             }
         }
         
-    }postHelloScript()
+    }
 }
 
