@@ -7,7 +7,7 @@ def call(Closure postHelloScript) {
                 """
             }
         }
-        postHelloScript()
-    }
+        
+    }postHelloScript()
 }
 
